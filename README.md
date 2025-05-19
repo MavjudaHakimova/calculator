@@ -15,7 +15,8 @@
 - Поддержка основных математических функций и констант  
 - Проверка корректности скобочной структуры выражения перед вычислением  
 - Интеграция на уровне ядра Linux для демонстрации работы с kernel space
-
+- Работа с числами с плавающей точкой
+- Выводит результат с точностью до 3 знаков после запятой
 ---
 
 ## Установка и запуск
@@ -28,3 +29,29 @@
 ```
    ./run.sh
 ```
+
+## Примеры работы:
+```
+EXPRESSION TO CALCULATE: (sin(p))^2+(cos(p))^2
+CALCULATION RESULT: 1.000
+```
+
+```
+EXPRESSION TO CALCULATE: -2+3-4+5
+CALCULATION RESULT: 2.000
+```
+
+```
+EXPRESSION TO CALCULATE: 2*(1.5+2.5)
+CALCULATION RESULT: 8.000
+```
+
+```
+EXPRESSION TO CALCULATE: 5/3
+CALCULATION RESULT: 1.667
+```
+``
+EXPRESSION TO CALCULATE: exp(0)
+CALCULATION RESULT: 1.000
+```
+
